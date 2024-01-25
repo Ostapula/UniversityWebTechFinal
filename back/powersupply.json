@@ -1,0 +1,68 @@
+[
+  {
+    "name": "SeaSonic Electronics FOCUS 750W 80 PLUS Gold ATX 12V Power Supply",
+    "description": "750W Single +12V Rail\nIntel ATX 12V Form Factor\n4 x PCI-E Connectors\n8 x SATA Connectors",
+    "price": 139.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1521100657_1349722.jpg"
+  },
+  {
+    "name": "SeaSonic Electronics FOCUS Plus 750W 80-PLUS Platinum Modular Power Supply",
+    "description": "750W Single +12V Rail\n120mm Cooling Fan\nIntel ATX12V Version 2.3\n4 x PCI-E Connectors",
+    "price": 159.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1507055707_1365559.jpg"
+  },
+  {
+    "name": "SeaSonic Electronics FOCUS 850W 80 PLUS Gold ATX 12V Power Supply",
+    "description": "850W Single +12V Rail\nIntel ATX 12V Form Factor\n6 x PCI-E Connectors\n10 x SATA Connectors",
+    "price": 139.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1500295150_1349723.jpg"
+  },
+  {
+    "name": "Cooler Master V850 SFX Gold 850W 80 PLUS Gold Modular SFX Power Supply (White)",
+    "description": "850W Single +12V Rail\n92mm Cooling Fan\nSFX 12V Version 3.42\n6 x PCIe 6+2-Pin Connectors",
+    "price": 137.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1683711643_1764780.jpg"
+  },
+  {
+    "name": "Thermaltake Smart 600W 80 PLUS Power Supply",
+    "description": "600W Single +12V Rail\n120mm Cooling Fan\nIntel ATX12V Version 2.3\n2 x PCIe Connectors",
+    "price": 43.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1447349809_1193910.jpg"
+  },
+  {
+    "name": "MSI MPG A1000G PCIE5 1000W 80 PLUS Gold Modular Power Supply",
+    "description": "1000W Single +12V Rail\n135mm Cooling Fan\nIntel ATX12V Version 3.0\n1 x 16-Pin Connector",
+    "price": 169.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1663663519_1727536.jpg"
+  },
+  {
+    "name": "SeaSonic Electronics S12III Series 650W 80 Plus Bronze ATX Power Supply",
+    "description": "650W Single +12V Rail\n120mm Cooling Fan\nIntel ATX12V\n4 x 8/6-Pin PCIe Connectors",
+    "price": 69.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1570104421_1509205.jpg"
+  },
+  {
+    "name": "SeaSonic Electronics Vertex GX-1200W 80-PLUS Gold PCIE5 Modular Power Supply",
+    "description": "1200W Single +12V Rail\n135mm Cooling Fan\nIntel ATX12V\n1 x PCIe 5.0 Connector",
+    "price": 254.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1676029845_1750781.jpg"
+  },
+  {
+    "name": "be quiet! 1000W Dark Power 13 Modular Power Supply",
+    "description": "Up to 1000W of Power\n80 Plus Titanium Efficiency\n135mm Silent Wings Cooling Fan\nDedicated 12VHPWR Cable",
+    "price": 260.50,
+    "image": "https://static.bhphoto.com/images/images345x345/1677163841_1752768.jpg"
+  },
+  {
+    "name": "Gigabyte P650G 650W 80 PLUS Gold Power Supply",
+    "description": "650W Single +12V Rail\n120mm Cooling Fan\nIntel ATX12V Version 2.31\n4 x PCI-E Connectors",
+    "price": 69.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1676026830_1750796.jpg"
+  },
+  {
+    "name": "null",
+    "description": "null",
+    "price": 0,
+    "image": "null"
+  }
+]

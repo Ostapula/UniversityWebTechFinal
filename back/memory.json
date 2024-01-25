@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Samsung 2TB 870 EVO SATA III 2.5\" Internal SSD",
+    "description": "2TB Storage Capacity\n2.5\" Form Factor\nSATA III 6 Gb/s Interface\n2GB LPDDR4 Cache",
+    "price": 159.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1611075020_1606521.jpg"
+  },
+  {
+    "name": "Samsung 1TB 870 EVO SATA III 2.5\" Internal SSD",
+    "description": "1TB Storage Capacity\n2.5\" Form Factor\nSATA III 6 Gb/s Interface\n1GB LPDDR4 Cache",
+    "price": 94.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1611074768_1606520.jpg"
+  },
+  {
+    "name": "Samsung 2TB 990 PRO PCIe 4.0 x4 M.2 Internal SSD",
+    "description": "2TB Storage Capacity\nM.2 2280 Form Factor\nPCIe 4.0 x4 / NVMe 2.0 Interface\nSequential Reads up to 7450 MB/s",
+    "price": 184.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1667295948_1726548.jpg"
+  },
+  {
+    "name": "Samsung 2TB 980 PRO PCIe 4.0 x4 M.2 Internal SSD",
+    "description": "2TB Storage Capacity\nM.2 2280 Form Factor\nPCIe 4.0 x4 / NVMe 1.3 Interface\nSequential Reads up to 7000 MB/s",
+    "price": 159.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1614267403_1624326.jpg"
+  },
+  {
+    "name": "WD 2TB WD_BLACK SN850X Gaming Internal NVMe PCIe 4.0 SSD",
+    "description": "2TB Storage Capacity\nM.2 2280 Form Factor\nPCIe 4.0 x4 Interface\nUp to 7300 MB/s Sequential Read Speed",
+    "price": 134.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1660572385_1721465.jpg"
+  },
+  {
+    "name": "Samsung 4TB 990 PRO PCIe 4.0 x4 M.2 Internal SSD",
+    "description": "4TB Storage Capacity\nM.2 2280 Form Factor\nPCIe 4.0 x4 / NVMe 2.0 Interface\nSequential Reads up to 7450 MB/s",
+    "price": 349.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1696290349_1787633.jpg"
+  },
+  {
+    "name": "Samsung 1TB 970 EVO Plus NVMe M.2 Internal SSD",
+    "description": "1TB Storage Capacity\nPCIe Interface\nM.2 2280 Form Factor\nUp to 3500 MB/s Sequential Read Speed",
+    "price": 94.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1652967375_1454170.jpg"
+  },
+  {
+    "name": "Samsung 500GB 870 EVO SATA III 2.5\" Internal SSD",
+    "description": "500GB Storage Capacity\n2.5\" Form Factor\nSATA III 6 Gb/s Interface\n512MB LPDDR4 Cache",
+    "price": 52.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1611077742_1606519.jpg"
+  },
+  {
+    "name": "Samsung 1TB 990 PRO PCIe 4.0 x4 M.2 Internal SSD",
+    "description": "1TB Storage Capacity\nM.2 2280 Form Factor\nPCIe 4.0 x4 / NVMe 2.0 Interface\nSequential Reads up to 7450 MB/s",
+    "price": 119.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1667295948_1726547.jpg"
+  },
+  {
+    "name": "Samsung 4TB 870 EVO SATA III 2.5\" Internal SSD",
+    "description": "4TB Storage Capacity\n2.5\" Form Factor\nSATA III 6 Gb/s Interface\n4GB LPDDR4 Cache",
+    "price": 299.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1611075934_1606522.jpg"
+  },
+  {
+    "name": "null",
+    "description": "null",
+    "price": 0,
+    "image": "null"
+  }
+]

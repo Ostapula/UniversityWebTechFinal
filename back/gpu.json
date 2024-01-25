@@ -1,0 +1,68 @@
+[
+  {
+    "name": "ASUS GeForce RTX 4070 Ti TUF Gaming Graphics Card",
+    "description": "Boostable up to 2640 MHz\n7680 CUDA Cores\nAda Lovelace Architecture\n12GB of GDDR6X VRAM",
+    "price": 809.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1672924829_1740807.jpg"
+  },
+  {
+    "name": "MSI GeForce RTX 4070 VENTUS 3X OC Graphics Card",
+    "description": "Boostable up to 2520 MHz\n5888 CUDA Cores\nAda Lovelace Architecture\n12GB of GDDR6X VRAM",
+    "price": 589.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1681289157_1759544.jpg"
+  },
+  {
+    "name": "MSI GeForce RTX 4070 VENTUS 2X OC Graphics Card",
+    "description": "Boostable up to 2520 MHz\n5888 CUDA Cores\nAda Lovelace Architecture\n12GB of GDDR6X VRAM",
+    "price": 549.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1697038831_1788863.jpg"
+  },
+  {
+    "name": "MSI GeForce RTX 3060 VENTUS 2X OC Graphics Card",
+    "description": "Boostable up to 1807 MHz\n3584 CUDA Cores\nAmpere Architecture\n12GB of GDDR6 VRAM",
+    "price": 289.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1614254020_1622182.jpg"
+  },
+  {
+    "name": "ASUS GeForce RTX 4070 Ti TUF Gaming OC Graphics Card",
+    "description": "Boostable up to 2760 MHz\n7680 CUDA Cores\nAda Lovelace Architecture\n12GB of GDDR6X VRAM",
+    "price": 829.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1672924829_1740806.jpg"
+  },
+  {
+    "name": "MSI GeForce RTX 4060 VENTUS 2X BLACK OC Graphics Card",
+    "description": "3072 CUDA Cores\nAda Lovelace Architecture\n8GB of GDDR6 RAM\n128-Bit Memory Interface",
+    "price": 299.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1688028361_1771745.jpg"
+  },
+  {
+    "name": "MSI GeForce RTX 3060 VENTUS 3X OC Graphics Card",
+    "description": "Boostable up to 1807 MHz\n3584 CUDA Cores\nAmpere Architecture\n12GB of GDDR6 VRAM",
+    "price": 297.00,
+    "image": "https://static.bhphoto.com/images/images345x345/1614254020_1622181.jpg"
+  },
+  {
+    "name": "ASUS GeForce RTX 3060 Dual V2 OC Graphics Card",
+    "description": "Boostable up to 1867 MHz\n3584 CUDA Cores\nAmpere Architecture\n12GB of GDDR6 VRAM",
+    "price": 299.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1631646328_1660417.jpg"
+  },
+  {
+    "name": "ASUS GeForce RTX 4070 Dual OC Graphics Card",
+    "description": "Boostable to 2550 MHz\n5888 CUDA Cores\nAda Lovelace Architecture\n12GB of GDDR6X VRAM",
+    "price": 569.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1681470033_1759044.jpg"
+  },
+  {
+    "name": "ASUS GeForce RTX 4070 Dual OC White Edition Graphics Card",
+    "description": "Boostable to 2550 MHz\n5888 CUDA Cores\nAda Lovelace Architecture\n12GB of GDDR6X VRAM",
+    "price": 589.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1683756624_1765577.jpg"
+  },
+  {
+    "name": "null",
+    "description": "null",
+    "price": 0,
+    "image": "null"
+  }
+]

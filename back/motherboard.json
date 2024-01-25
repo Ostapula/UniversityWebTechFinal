@@ -1,0 +1,68 @@
+[
+  {
+    "name": "MSI MAG X670E TOMAHAWK WIFI AM5 ATX Motherboard",
+    "description": "ATX Form Factor\nAMD X670 Chipset\nAM5 Socket\n4 x Dual-Channel DDR5-6000 (OC)",
+    "price": 279.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1688656832_1771748.jpg"
+  },
+  {
+    "name": "MSI B650 GAMING PLUS WIFI AM5 ATX Motherboard",
+    "description": "ATX Form Factor\nAMD B650 Chipset\nAM5 Socket\n4 x Dual-Channel DDR5-6000 (OC)",
+    "price": 179.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1691757642_1776455.jpg"
+  },
+  {
+    "name": "MSI MAG B550 TOMAHAWK MAX WIFI AM4 ATX Motherboard",
+    "description": "ATX Form Factor\nAMD B550 Chipset\nSocket AM4\n4 x Dual-Channel DDR4-5100+ MHz (OC)",
+    "price": 179.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1658407674_1716522.jpg"
+  },
+  {
+    "name": "MSI PRO B760-P WIFI DDR4 LGA 1700 ATX Motherboard",
+    "description": "ATX Form Factor\nB760 Chipset\nLGA 1700 Socket\n4 x Dual-Channel DDR4 RAM Slots",
+    "price": 155.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1674489929_1746348.jpg"
+  },
+  {
+    "name": "MSI PRO Z790-P WIFI LGA 1700 ATX Motherboard",
+    "description": "ATX Form Factor\nIntel Z790 Chipset\nLGA 1700 Socket\n4 x Dual-Channel DDR5-7000 (OC)",
+    "price": 189.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1664268372_1728884.jpg"
+  },
+  {
+    "name": "MSI PRO B550M-VC WIFI AM4 M-ATX Motherboard",
+    "description": "M-ATX Form Factor\nAMD B550 Chipset\nAM4 Socket\n4 x Dual-Channel DDR4 RAM Slots",
+    "price": 119.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1662726043_1726160.jpg"
+  },
+  {
+    "name": "MSI B760 GAMING PLUS WIFI ATX LGA 1700 Motherboard",
+    "description": "ATX Form Factor\nB760 Chipset\nLGA 1700 Socket\n4 x Dual-Channel DDR5 RAM Slots",
+    "price": 159.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1683631846_1764872.jpg"
+  },
+  {
+    "name": "ASUS ProArt Z790-CREATOR WIFI LGA 1700 ATX Motherboard",
+    "description": "ATX Form Factor\nIntel Z790 Chipset\nLGA 1700 Socket\n4 x Dual-Channel DDR5 Slots",
+    "price": 439.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1671636623_1740492.jpg"
+  },
+  {
+    "name": "MSI B450M-A PRO MAX II Micro-ATX Motherboard",
+    "description": "Micro-ATX Form Factor\nAMD B450 Chipset\nAM4 Socket\n2 x Dual-Channel DDR4-4133 (OC)",
+    "price": 69.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1698067524_1789823.jpg"
+  },
+  {
+    "name": "MSI MAG B760 TOMAHAWK WIFI LGA 1700 ATX Gaming Motherboard",
+    "description": "ATX Form Factor\nB760 Chipset\nLGA 1700 Socket\n4 x Dual-Channel DDR5 RAM Slots",
+    "price": 179.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1674489662_1746345.jpg"
+  },
+  {
+    "name": "null",
+    "description": "null",
+    "price": 0,
+    "image": "null"
+  }
+]

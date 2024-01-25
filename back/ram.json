@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Kingston 16GB FURY Beast DDR4 3200 MHz UDIMM Memory Kit (2 x 8GB)",
+    "description": "16GB (2 x 8GB) Capacity\n3200 MHz Clock Speed\nPC4-25600\n288-Pin UDIMM",
+    "price": 59.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1634124022_1661631.jpg"
+  },
+  {
+    "name": "Kingston 32GB FURY Beast RGB DDR4 3200 MHz UDIMM Memory Kit (2 x 16GB)",
+    "description": "32GB (2 x 16GB) Capacity\n3200 MHz Clock Speed\nPC4-25600\n288-Pin UDIMM",
+    "price": 89.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1634125510_1661628.jpg"
+  },
+  {
+    "name": "Kingston 16GB FURY Beast RGB DDR4 3200 MHz UDIMM Memory Kit (2 x 8GB)",
+    "description": "16GB (2 x 8GB) Capacity\n3200 MHz Clock Speed\nPC4-25600\n288-Pin UDIMM",
+    "price": 54.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1633340154_1661630.jpg"
+  },
+  {
+    "name": "Kingston 64GB FURY Renegade DDR5 6000 MHz Kit",
+    "description": "64GB (2 x 32GB) Capacity\n6000 MHz Clock Speed\n288-Pin DIMM\n1.35V",
+    "price": 290.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1678263926_1754777.jpg"
+  },
+  {
+    "name": "Kingston 32GB FURY Beast DDR4 3200 MHz UDIMM Memory Kit (2 x 16GB)",
+    "description": "32GB (2 x 16GB) Capacity\n3200 MHz Clock Speed\nPC4-25600\n288-Pin UDIMM",
+    "price": 109.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1633340154_1661630.jpg"
+  },
+  {
+    "name": "Kingston 64GB FURY Renegade DDR5 6000 MHz Kit",
+    "description": "64GB (2 x 32GB) Capacity\n6000 MHz Clock Speed\n288-Pin DIMM\n1.1V",
+    "price": 329.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1678263622_1754775.jpg"
+  },
+  {
+    "name": "Kingston 32GB FURY Beast RGB DDR5 RAM (2 x 16GB)",
+    "description": "32GB (2 x 16GB) Capacity\n6000 MHz Clock Speed\nPC5-48000\n288-Pin UDIMM",
+    "price": 209.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1686586519_1740835.jpg"
+  },
+  {
+    "name": "Kingston 32GB FURY Beast RGB DDR5 RAM (2 x 16GB)",
+    "description": "32GB (2 x 16GB) Capacity\n5200 MHz Clock Speed\nPC5-41600\n288-Pin UDIMM",
+    "price": 172.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1674462916_1740831.jpg"
+  },
+  {
+    "name": "Kingston 32GB FURY Beast RGB DDR5 RAM (2 x 16GB)",
+    "description": "32GB (2 x 16GB) Capacity\n5600 MHz Clock Speed\nPC5-44800\n288-Pin UDIMM",
+    "price": 199.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1686586519_1740833.jpg"
+  },
+  {
+    "name": "Kingston 16GB FURY Beast RGB DDR4 3600 MHz UDIMM Memory Kit (2 x 8GB)",
+    "description": "16GB (2 x 8GB) Capacity\n3600 MHz Clock Speed\nPC4-28800\n288-Pin UDIMM",
+    "price": 79.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1633340154_1661632.jpg"
+  },
+  {
+    "name": "null",
+    "description": "null",
+    "price": 0,
+    "image": "null"
+  }
+]

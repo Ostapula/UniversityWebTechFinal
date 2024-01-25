@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Lian Li 120mm UNI FAN SL-INFINITY Case Fan 3-Pack with Controller (White)",
+    "description": "3 x 120mm PWM Fans\nInfinity Mirror Design\nCustomizable RGB Lighting\nUp to 2100 rpm Fan Speed",
+    "price": 89.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1668092440_1720523.jpg"
+  },
+  {
+    "name": "Cooler Master Hyper 212 RGB Black Edition CPU Cooling Fan",
+    "description": "Supports Intel & AMD Sockets\nSF120R RGB Fan\n6.3\" Height\nDirect Contact Pad & Aluminum Heatsink",
+    "price": 47.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1656507924_1707088.jpg"
+  },
+  {
+    "name": "NZXT Kraken 360 AIO Liquid Cooler with LCD Display",
+    "description": "360mm Cooler with Asetek Pump\nLCD on Pump Shows Specs or Custom Images\nUp to 2800 RPM Whisper-Quiet Operation\nHigh-Performance PWM Fans Included",
+    "price": 179.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1686318615_1765796.jpg"
+  },
+  {
+    "name": "Cooler Master Hyper 212 Black Edition CPU Cooling Fan",
+    "description": "Supports Intel & AMD Sockets\nSilencio FP120 Fan\n6.3\" Height\nDirect Contact Pad & Aluminum Heatsink",
+    "price": 53.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1656507924_1707089.jpg"
+  },
+  {
+    "name": "Lian Li Uni Fan SL-Infinity Reverse Blade Case Fan (Black)",
+    "description": "Fluid Dynamic Bearing\n200-2100 rpm Fan Speed\n63.6 CFM Airflow\n32 dBA Maximum Noise Level",
+    "price": 30.00,
+    "image": "https://static.bhphoto.com/images/images345x345/1699615835_1788349.jpg"
+  },
+  {
+    "name": "be quiet! Dark Rock Pro 4 Air Cooler",
+    "description": "Double-Tower Design with Dual Heatsinks\n135mm & 120mm Silent Wings PWM Fans\nSeven 6mm Copper Heat Pipes\nAirflow-Optimized Fan Blades",
+    "price": 84.67,
+    "image": "https://static.bhphoto.com/images/images345x345/1523623602_1396144.jpg"
+  },
+  {
+    "name": "Lian Li UNI FAN SL V2 120mm ARGB Case Fan 3-Pack (Black)",
+    "description": "3-Fan Pack with PWM & RGB Controller\nFluid Dynamic Bearings\n4-Pin PWM Connection\n250 - 2000 rpm Fan Speed",
+    "price": 82.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1677585328_1753410.jpg"
+  },
+  {
+    "name": "NZXT Kraken 360 RGB AIO Liquid Cooler with LCD Display (White)",
+    "description": "360mm Cooler with Asetek Pump\nSoftware RGB Control\nLCD on Pump Shows Specs or Custom Images\nUp to 2800 RPM Whisper-Quiet Operation",
+    "price": 219.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1684407331_1765803.jpg"
+  },
+  {
+    "name": "NZXT Kraken 240 AIO Liquid Cooler with LCD Display",
+    "description": "240mm Cooler with Asetek Pump\nLCD on Pump Shows Specs or Custom Images\nUp to 2800 RPM Whisper-Quiet Operation\nHigh-Performance PWM Fans Included",
+    "price": 127.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1686317720_1765792.jpg"
+  },
+  {
+    "name": "NZXT 360mm Kraken Elite RGB All-in-One Liquid CPU Cooler (Black)",
+    "description": "360mm Aluminum Radiator\n3 x 120mm PWM Fans\nCopper Water Black\nARGB Lighting & 2.36\" LCD Display",
+    "price": 288.49,
+    "image": "https://static.bhphoto.com/images/images345x345/1681861526_1762278.jpg"
+  },
+  {
+    "name": "null",
+    "description": "null",
+    "price": 0,
+    "image": "null"
+  }
+]

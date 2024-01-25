@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Intel Core i9-14900K 3.2 GHz 24-Core LGA 1700 Processor",
+    "description": "24 Cores & 32 Threads\n3.2 GHz P-Core Clock Speed\n5.8 GHz Maximum Turbo Boost Frequency\nLGA 1700 Socket\n",
+    "price": 569.53,
+    "image": "https://static.bhphoto.com/images/images345x345/1697445940_1781469.jpg"
+  },
+  {
+    "name": "Intel Core i9-14900KF 3.2 GHz 24-Core LGA 1700 Processor",
+    "description": "24 Cores & 32 Threads\n3.2 GHz P-Core Clock Speed\n5.8 GHz Maximum Turbo Boost Frequency\nLGA 1700 Socket",
+    "price": 544.02,
+    "image": "https://static.bhphoto.com/images/images345x345/1697445940_1781470.jpg"
+  },
+  {
+    "name": "Intel Core i7-14700KF 3.4 GHz 20-Core LGA 1700 Processor",
+    "description": "20 Cores & 28 Threads\n3.4 GHz P-Core Clock Speed\n5.6 GHz Maximum Turbo Boost Frequency\nLGA 1700 Socket",
+    "price": 384.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1697445940_1781468.jpg"
+  },
+  {
+    "name": "Intel Core i7-12700K 3.6 GHz 12-Core LGA 1700 Processor",
+    "description": "12 Cores & 20 Threads\n3.6 GHz P-Core Clock Speed\n5 GHz Maximum Turbo Frequency\nLGA 1700 Socket",
+    "price": 317.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1635335191_1663646.jpg"
+  },
+  {
+    "name": "Add to Compare Intel Core i7-14700K 3.4 GHz 20-Core LGA 1700 Processor",
+    "description": "20 Cores & 28 Threads\n3.4 GHz P-Core Clock Speed\n5.6 GHz Maximum Turbo Boost Frequency\nLGA 1700 Socket",
+    "price": 401.55,
+    "image": "https://static.bhphoto.com/images/images345x345/1697445940_1781467.jpg"
+  },
+  {
+    "name": "Intel Core i5-14600K 3.5 GHz 14-Core LGA 1700 Processor",
+    "description": "14 Cores & 20 Threads\n3.5 GHz P-Core Clock Speed\n5.3 GHz Maximum Turbo Boost Frequency\nLGA 1700 Socket",
+    "price": 316.80,
+    "image": "https://static.bhphoto.com/images/images345x345/1697445940_1781465.jpg"
+  },
+  {
+    "name": "Intel Core i5-13600K 3.5 GHz 14-Core LGA 1700 Processor",
+    "description": "14 Cores & 20 Threads\n3.5 GHz P-Core Clock Speed\n5.1 GHz Maximum Turbo Frequency\nLGA 1700 Socket",
+    "price": 319.00,
+    "image": "https://static.bhphoto.com/images/images345x345/1664553928_1721752.jpg"
+  },
+  {
+    "name": "Intel Core i5-13600KF 3.5 GHz 14-Core LGA 1700 Processor",
+    "description": "14 Cores & 20 Threads\n3.5 GHz P-Core Clock Speed\n5.1 GHz Maximum Turbo Frequency\nLGA 1700 Socket",
+    "price": 285.98,
+    "image": "https://static.bhphoto.com/images/images345x345/1664553928_1721753.jpg"
+  },
+  {
+    "name": "Intel Core i7-12700KF 3.6 GHz 12-Core LGA 1700 Processor",
+    "description": "12 Cores & 20 Threads\n3.6 GHz P-Core Clock Speed\n5 GHz Maximum Turbo Frequency\nLGA 1700 Socket",
+    "price": 299.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1635335191_1667037.jpg"
+  },
+  {
+    "name": "Intel Core i9-13900K 3 GHz 24-Core LGA 1700 Processor",
+    "description": "24 Cores & 32 Threads\n3 GHz P-Core Clock Speed\n5.7 GHz Turbo Boost Max Frequency\nLGA 1700 Socket",
+    "price": 559.99,
+    "image": "https://static.bhphoto.com/images/images345x345/1664553928_1721737.jpg"
+  },
+  {
+    "name": "null",
+    "description": "null",
+    "price": 0,
+    "image": "null"
+  }
+]
