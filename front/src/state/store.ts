@@ -21,6 +21,7 @@ import powersupplySumReducer from "./sumchanger/powersupplySumSlice";
 import coolerSumReducer from "./sumchanger/coolerSumSlice";
 import clientDataReducer from "./userschanger/clientDataSlice";
 import orderIdReducer from "./order/orderIdSlice";
+import workshopDataReducer from "./workshopchanger/workshopDataSlice";
 
 const rootReducer = combineReducers({
     clientData: clientDataReducer,
@@ -41,6 +42,7 @@ const rootReducer = combineReducers({
     powersupplysumchanger: powersupplySumReducer,
     coolersumchanger: coolerSumReducer,
     orderData: orderIdReducer,
+    workshopData: workshopDataReducer,
 });
 
 const persistConfig = {

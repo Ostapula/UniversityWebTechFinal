@@ -46,43 +46,43 @@ public class ComputersApplication {
 
             userRepository.save(admin);
 
-			String jsonFilePath = "C:/pyProjects/final-proj/shop/computercases.json";
+			String jsonFilePath = "C:/pyProjects/final-proj/back/computercases.json";
 			Gson gson = new Gson();
 			try (Reader reader = Files.newBufferedReader(Paths.get(jsonFilePath))) {
 				List<ComputerCase> items = gson.fromJson(reader, new TypeToken<List<ComputerCase>>(){}.getType());
 				computerCaseRepository.saveAll(items);
 			}
-			String jsonFilePath2 = "C:/pyProjects/final-proj/shop/motherboard.json";
+			String jsonFilePath2 = "C:/pyProjects/final-proj/back/motherboard.json";
 			try (Reader reader = Files.newBufferedReader(Paths.get(jsonFilePath2))) {
 				List<Motherboard> items = gson.fromJson(reader, new TypeToken<List<Motherboard>>(){}.getType());
 				motherboardRepository.saveAll(items);
 			}
-			String jsonFilePath3 = "C:/pyProjects/final-proj/shop/gpu.json";
+			String jsonFilePath3 = "C:/pyProjects/final-proj/back/gpu.json";
 			try (Reader reader = Files.newBufferedReader(Paths.get(jsonFilePath3))) {
 				List<GPU> items = gson.fromJson(reader, new TypeToken<List<GPU>>(){}.getType());
 				gpuRepository.saveAll(items);
 			}
-			String jsonFilePath4 = "C:/pyProjects/final-proj/shop/cpu.json";
+			String jsonFilePath4 = "C:/pyProjects/final-proj/back/cpu.json";
 			try (Reader reader = Files.newBufferedReader(Paths.get(jsonFilePath4))) {
 				List<CPU> items = gson.fromJson(reader, new TypeToken<List<CPU>>(){}.getType());
 				cpuRepository.saveAll(items);
 			}
-			String jsonFilePath5 = "C:/pyProjects/final-proj/shop/ram.json";
+			String jsonFilePath5 = "C:/pyProjects/final-proj/back/ram.json";
 			try (Reader reader = Files.newBufferedReader(Paths.get(jsonFilePath5))) {
 				List<RAM> items = gson.fromJson(reader, new TypeToken<List<RAM>>(){}.getType());
 				ramRepository.saveAll(items);
 			}
-			String jsonFilePath6 = "C:/pyProjects/final-proj/shop/memory.json";
+			String jsonFilePath6 = "C:/pyProjects/final-proj/back/memory.json";
 			try (Reader reader = Files.newBufferedReader(Paths.get(jsonFilePath6))) {
 				List<HardMemory> items = gson.fromJson(reader, new TypeToken<List<HardMemory>>(){}.getType());
 				hardMemoryRepository.saveAll(items);
 			}
-			String jsonFilePath7 = "C:/pyProjects/final-proj/shop/powersupply.json";
+			String jsonFilePath7 = "C:/pyProjects/final-proj/back/powersupply.json";
 			try (Reader reader = Files.newBufferedReader(Paths.get(jsonFilePath7))) {
 				List<PowerSupply> items = gson.fromJson(reader, new TypeToken<List<PowerSupply>>(){}.getType());
 				powerSupplyRepository.saveAll(items);
 			}
-			String jsonFilePath8 = "C:/pyProjects/final-proj/shop/cooler.json";
+			String jsonFilePath8 = "C:/pyProjects/final-proj/back/cooler.json";
 			try (Reader reader = Files.newBufferedReader(Paths.get(jsonFilePath8))) {
 				List<Cooler> items = gson.fromJson(reader, new TypeToken<List<Cooler>>(){}.getType());
 				coolerRepository.saveAll(items);

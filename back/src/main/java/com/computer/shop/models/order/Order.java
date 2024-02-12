@@ -4,14 +4,16 @@ import com.computer.shop.models.shopitems.*;
 import com.computer.shop.models.user.User;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 
 @Entity(name = "Order")
 @Table(name = "orders")
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 public class Order {
     @Id
