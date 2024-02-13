@@ -7,6 +7,7 @@ import com.computer.shop.models.user.Role;
 import com.computer.shop.models.user.User;
 import com.computer.shop.repository.RoleRepository;
 import com.computer.shop.repository.UserRepository;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
@@ -83,8 +84,8 @@ public class AuthenticationService {
     }
 
     public ResponseEntity<?> loginUser(String username, String password) {
-
         try {
+            userRepository.findByUsername(username).orElseThrow(() -> new UsernameNotFoundException("User is not found!"));
             Authentication auth = authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(username, password)
             );

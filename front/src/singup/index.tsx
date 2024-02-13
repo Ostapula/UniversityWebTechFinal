@@ -1,5 +1,6 @@
 import HText from '@/shared/HText';
 import { motion } from 'framer-motion'
+import { useState } from 'react';
 import { useForm} from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -16,6 +17,7 @@ interface FormData {
 
 const SignUp = () => {
   const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
+  const [isErrorMsg, setIsErrorMsg] = useState<string>("");
   const navigate = useNavigate();
   const {
     register,
@@ -35,7 +37,7 @@ const SignUp = () => {
       if (response.status === 401) {
         return response.json().then(data => {
           console.error('Error:', data.message);
-          alert(data.message);
+          setIsErrorMsg(data.message);
         });
       } else if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -219,10 +221,32 @@ const SignUp = () => {
               className="mt-5 rounded-lg bg-secondary-500 xs:px-20 py-3 transition duration-500 hover:text-white hover:bg-primary-500 px-10"
           >
               SIGN UP
-          </button>
-       
-        </form>            
+          </button>       
+        </form>        
       </motion.div>
+      {isErrorMsg == "" ? ("") : (
+                    <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex justify-center items-center">
+                        <div className="relative p-5 bg-white rounded shadow-lg">
+                            <span 
+                                className="absolute top-2 right-2 cursor-pointer"
+                                onClick={() => setIsErrorMsg("")}
+                            >
+                                &times; 
+                            </span>
+                            <div>
+                                <HText>E<span className="text-primary-500">RR</span>OR</HText>
+                                <div className="pt-2">
+                                  <h6 className="font-bold">{isErrorMsg}</h6>
+                                </div>
+                                <div>
+                                    <div className="pt-10 flex justify-center gap-10">
+                                        <button onClick={() => setIsErrorMsg("")} className="rounded-lg bg-secondary-500 px-10 py-2 hover:text-white hover:bg-primary-500">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
       <motion.div 
         className="mt-5"
         initial="hidden"

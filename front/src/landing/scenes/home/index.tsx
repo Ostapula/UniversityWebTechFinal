@@ -65,8 +65,10 @@ const Home = ({ setSelectedPage }: Props) => {
                     >
                         {clientData.username === '' ? (
                             <Link to="/signup" className="rounded-lg bg-secondary-500 px-10 py-2 hover:text-white hover:bg-primary-500">Sign Up</Link>
-                        ): (
-                            <Link to="/shop" className="rounded-lg bg-secondary-500 px-10 py-2 hover:text-white hover:bg-primary-500">Shop</Link>
+                        ): ( <div className="flex space-x-4">
+                                <Link to="/shop" className="rounded-lg bg-secondary-500 px-10 py-2 hover:text-white hover:bg-primary-500">Shop</Link>
+                                <Link to="/workshop" className="rounded-lg bg-secondary-500 px-10 py-2 hover:text-white hover:bg-primary-500">Workshop</Link>
+                            </div>
                         )}
                         <AnchorLink 
                             className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
