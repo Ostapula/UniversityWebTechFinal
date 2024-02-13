@@ -12,6 +12,7 @@ import Admin from './admin/Admin.tsx';
 import { PersistGate } from 'redux-persist/integration/react';
 import Profile from './profile/Profile.tsx';
 import ForgotPassword from './forgotpassword/ForgotPassword.tsx';
+import Workshop from './workshop/Workshop.tsx';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/forgot-password",
     element: <ForgotPassword />
+  },
+  {
+    path: "/workshop",
+    element: <Workshop />
   }
 ]);
 

@@ -1,12 +1,11 @@
 package com.computer.shop.services;
 
-import com.computer.shop.controllers.UserController;
 import com.computer.shop.models.order.Order;
 import com.computer.shop.models.shopitems.*;
 import com.computer.shop.repository.OrderRepository;
 import com.computer.shop.repository.UserRepository;
 import com.computer.shop.repository.shopitemsrepository.*;
-import jakarta.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

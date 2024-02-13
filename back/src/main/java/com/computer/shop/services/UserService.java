@@ -4,7 +4,8 @@ import com.computer.shop.models.dto.ErrorMessageDTO;
 import com.computer.shop.models.user.User;
 import com.computer.shop.repository.OrderRepository;
 import com.computer.shop.repository.UserRepository;
-import jakarta.transaction.Transactional;
+import com.computer.shop.repository.WorkshopRepository;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+@Transactional
 @Service
 public class UserService implements UserDetailsService {
 
@@ -21,23 +23,34 @@ public class UserService implements UserDetailsService {
 
     private final OrderRepository orderRepository;
 
+    private final WorkshopRepository workshopRepository;
     private final PasswordEncoder passwordEncoder;
 
-    public UserService(UserRepository userRepository, OrderRepository orderRepository, PasswordEncoder passwordEncoder) {
+    public UserService(UserRepository userRepository, OrderRepository orderRepository, WorkshopRepository workshopRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
         this.orderRepository = orderRepository;
+        this.workshopRepository = workshopRepository;
         this.passwordEncoder = passwordEncoder;
     }
 
     @Override
+    @Transactional(readOnly = true)
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return userRepository.findByUsername(username).orElseThrow(() -> new UsernameNotFoundException("User is not found!"));
     }
 
-    @Transactional
+    @Transactional(readOnly = true)
     public ResponseEntity<?> getUserOrders(Long id) {
         try {
             return new ResponseEntity<>(orderRepository.findAllByUserId(id), HttpStatus.OK);
+        } catch (Exception ex) {
+            return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
+        }
+    }
+    @Transactional(readOnly = true)
+    public ResponseEntity<?> getUserWorkshop(Long id) {
+        try {
+            return new ResponseEntity<>(workshopRepository.findAllByUserId(id), HttpStatus.OK);
         } catch (Exception ex) {
             return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
         }
@@ -80,5 +93,14 @@ public class UserService implements UserDetailsService {
                 }
         ).orElseThrow(() -> new RuntimeException("User not found!"));
         return new ResponseEntity<>(user, HttpStatusCode.valueOf(200));
+    }
+
+    public ResponseEntity<?> cancelWorkshop(Long id) {
+        try {
+            workshopRepository.deleteById(id);
+            return new ResponseEntity<>(HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
+        }
     }
 }

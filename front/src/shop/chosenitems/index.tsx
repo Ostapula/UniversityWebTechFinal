@@ -157,7 +157,7 @@ const ChosenItems = ({setSelectedPage }: Props) => {
             return response.json();
         })
         .then(data => {
-            if (!data.isValid || !data.isAdmin) {
+            if (!data.isValid) {
                 navigate('/signin');
             }
         })
@@ -360,7 +360,7 @@ const ChosenItems = ({setSelectedPage }: Props) => {
                 )}
         </motion.div>
     </section>
-  )
+)
 }
 
 export default ChosenItems

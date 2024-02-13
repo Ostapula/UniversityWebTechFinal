@@ -17,6 +17,11 @@ export enum SelectedPageShop {
     Cooling = "cooling"
 }
 
+export enum SelectedPageWorkshop {
+    Home = "home",
+    History = "history"
+}
+
 export interface BenefitType {
     icon: JSX.Element;
     title: string;
@@ -55,3 +60,13 @@ export type Order = {
     sum: number;
     date: string;
 };
+
+export type WorkshopOrder = {
+    id: number;
+    date: string;
+    time: string;
+    service: string;
+    description: string;
+    done: boolean;
+    localDateTime: string;
+}

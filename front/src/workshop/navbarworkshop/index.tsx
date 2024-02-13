@@ -1,9 +1,9 @@
-import {  useState } from "react";
+import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Logo from "@/assets/Logo.png";
-import LinkNavLand from "./Link";
+import LinkNavWork from "./LinkNavWork";
 import { Link } from "react-router-dom";
-import { SelectedPage } from "@/shared/types";
+import { SelectedPageWorkshop } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { useSelector } from "react-redux";
 import { RootState } from "@/state/store";
@@ -11,8 +11,9 @@ import { RootState } from "@/state/store";
 
 type Props = {
     isTopOfPage: boolean;
-    selectedPage: SelectedPage;
-    setSelectedPage: (value: SelectedPage) => void;
+    selectedPage: SelectedPageWorkshop;
+    setSelectedPage: (value: SelectedPageWorkshop) => void;
+    
 }
 
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage } : Props) => {
@@ -32,31 +33,21 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage } : Props) => {
                     {/* Right side */}
                     {isAboveMediumScreens ? ( <div className={`${flexBetween} w-full`}>
                         <div className={`${flexBetween} gap-8 text-sm`}>
-                            <LinkNavLand 
+                            <LinkNavWork 
                                 page="Home"
                                 selectedPage={selectedPage}
                                 setSelectedPage={setSelectedPage}
                             />
-                            <LinkNavLand 
-                                page="Benefits"
+                            <LinkNavWork
+                                page="History"
                                 selectedPage={selectedPage}
                                 setSelectedPage={setSelectedPage}
                             />
-                            <LinkNavLand 
-                                page="Our Works"
-                                selectedPage={selectedPage}
-                                setSelectedPage={setSelectedPage}
-                            />
-                            <LinkNavLand 
-                                page="Contact Us"
-                                selectedPage={selectedPage}
-                                setSelectedPage={setSelectedPage}
-                            />
+                            <Link to="/" className="transition duration-500 hover:text-primary-300">
+                                Landing
+                            </Link>
                             <Link to="/shop" className="transition duration-500 hover:text-primary-300">
                                 Shop
-                            </Link>
-                            <Link to="/workshop" className="transition duration-500 hover:text-primary-300">
-                                Workshop
                             </Link>
                         </div>
                         <div>
@@ -91,28 +82,18 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage } : Props) => {
                 </div>
                 {/* Menu items */}
                 <div className="ml-[33%] flex flex-col gap-10 text-2xl">
-                    <LinkNavLand 
+                    <LinkNavWork 
                         page="Home"
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}
                     />
-                    <LinkNavLand 
-                        page="Benefits"
+                    <LinkNavWork 
+                        page="History"
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}
                     />
-                    <LinkNavLand 
-                        page="Our Works"
-                        selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}
-                    />
-                    <LinkNavLand 
-                        page="Contact Us"
-                        selectedPage={selectedPage}
-                        setSelectedPage={setSelectedPage}
-                    />
-                    <Link to="/shop" className="transition duration-500 hover:text-primary-300">
-                        Shop
+                    <Link to="/" className="transition duration-500 hover:text-primary-300">
+                        Landing
                     </Link>
                     <Link to="/workshop" className="transition duration-500 hover:text-primary-300">
                         Workshop

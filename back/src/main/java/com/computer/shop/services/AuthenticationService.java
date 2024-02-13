@@ -7,8 +7,7 @@ import com.computer.shop.models.user.Role;
 import com.computer.shop.models.user.User;
 import com.computer.shop.repository.RoleRepository;
 import com.computer.shop.repository.UserRepository;
-import jakarta.transaction.Transactional;
-import org.springframework.dao.DuplicateKeyException;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
@@ -107,7 +106,6 @@ public class AuthenticationService {
             Jwt jwt = jwtDecoder.decode(token);
 
             List<String> roles = jwt.getClaimAsStringList("roles");
-            System.out.println(roles);
             boolean isAdmin = roles != null && roles.contains("ADMIN");
             return ResponseEntity.ok(Map.of("isValid", true, "isAdmin", isAdmin));
         } catch (JwtValidationException e) {

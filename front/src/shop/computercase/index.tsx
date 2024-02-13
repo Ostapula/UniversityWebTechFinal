@@ -57,9 +57,9 @@ const ComputerCases = ({ setSelectedPage }: Props) => {
 
     useEffect(() => {
         fetchProducts()
-          .then(setProducts)
-          .catch((error) => setError(error.message));
-      }, []);
+            .then(setProducts)
+            .catch((error) => setError(error.message));
+        }, []);
     
     if (error) {
         return <div>Error: {error}</div>;
@@ -112,7 +112,7 @@ const ComputerCases = ({ setSelectedPage }: Props) => {
             </motion.div>
         </motion.div>
     </section>
-  )
+    )
 }
 
 export default ComputerCases
